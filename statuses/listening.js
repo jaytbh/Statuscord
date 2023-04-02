@@ -2,11 +2,11 @@ const
   rpcGenerator = require("discordrpcgenerator"),
 
   // Add your client id in the index.js file
-  IMAGE = "The name of the image",
-  SONG = "The name of the song",
-  ARTIST = "The artist of the song";
+  IMAGE = "anime",
+  SONG = "/vaulting",
+  ARTIST = "/2fake";
 
-module.exports = (client, CLIENT_ID) => rpcGenerator.getRpcImage(CLIENT_ID, IMAGE)
+module.exports = (client, 1091969152568270930) => rpcGenerator.getRpcImage(CLIENT_ID, IMAGE)
   .then(image => client.user.setPresence(
     rpcGenerator.createSpotifyRpc(client)
       .setApplicationId(CLIENT_ID)
