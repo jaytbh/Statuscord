@@ -2,7 +2,7 @@ const
   rpcGenerator = require("discordrpcgenerator"),
 
   // Add your client id in the index.js file
-  IMAGE_NAME = "The name of the image",
+  IMAGE_NAME = "The name ofthe image",
   LARGE_TEXT = "Large text on the status",
   SMALL_TEXT = "Small text on the status",
   LINK = "https://twitch.tv/SealedSaucer";
